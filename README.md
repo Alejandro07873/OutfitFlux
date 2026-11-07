@@ -73,8 +73,5 @@ The interface can launch before tool setup; extraction and export require the de
 
 The exporter verifies PAK contents, but that does not validate every visual combination in game. Cross-character results depend on the assets involved. The app does not claim a universal skeleton-retargeting system.
 
-## 🤝 Credits
 
-Based on [XShawolf / MHUR-Model-Swapper](https://github.com/XShawolf/MHUR-Model-Swapper), with tools including [UAssetAPI](https://github.com/atenfyr/UAssetAPI), [repak](https://github.com/trumank/repak), [UE4-DDS Tools](https://github.com/matyalatte/UE4-DDS-Tools), UnrealPak and FFmpeg. See [Third-party notes](docs/THIRD_PARTY.md).
 
-This project is not affiliated with the game's developers or publishers. No new license grant is assigned to inherited code by this repository preparation; see the third-party notes before selecting the project's license.
