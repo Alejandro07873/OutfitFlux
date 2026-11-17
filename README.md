@@ -56,16 +56,6 @@ Queue progress in this documentation is a staged UI demonstration; live exports 
 
 The first-run setup appears once per Windows user. You can reopen Settings from Tools at any time. The library is generated locally; game assets and mods are not included in this source repository.
 
-## 🛠️ Build and customize
-
-See [Development](docs/DEVELOPMENT.md) for the Python environment, required external tools, tests and packaging. See [Brand kit](docs/BRAND.md) for editable artwork and screenshot generation.
-
-```powershell
-py -3.10 -m venv .venv
-.\.venv\Scripts\Activate.ps1
-python -m pip install -r requirements-dev.txt
-python main.py
-```
 
 The interface can launch before tool setup; extraction and export require the dependencies listed in the development guide.
 
